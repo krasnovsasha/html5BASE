@@ -1,25 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic');
+
 body {
     background-color: #f8f8f8;
     font-family: 'Lobster', cursive, sans-serif;
 }
-li{
+
+li {
     list-style: none;
 }
-
 
 .linksInMenu {
     color: #53E000;
     font-family: 'Lobster', cursive, sans-serif;
     font-size: 17px;
     text-decoration: none;
-
 }
-
-h2 {
+.linksInProducts{
+    color: #ABF000;
     font-family: 'Lobster', cursive, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
 }
-h3{
-    font-family: 'Lobster', cursive, sans-serif;
+.linksInProductDescription{
+    font-size: 15px;
+    text-decoration: none;
 }
+.linksInProductMenu{
+    color: #ABF000;
+    font-size: 16px;
+    text-decoration: none;
+}
+h4{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+
+
+
 
