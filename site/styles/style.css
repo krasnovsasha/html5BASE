@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic');
 body {
     background-color: #f8f8f8;
+    font-family: 'Lobster', cursive, sans-serif;
 }
+li{
+    list-style: none;
+}
+
+
+.linksInMenu {
+    color: #53E000;
+    font-family: 'Lobster', cursive, sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+
+}
+
+h2 {
+    font-family: 'Lobster', cursive, sans-serif;
+}
+h3{
+    font-family: 'Lobster', cursive, sans-serif;
+}
+
