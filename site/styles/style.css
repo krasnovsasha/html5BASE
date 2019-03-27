@@ -5,8 +5,9 @@ body {
     font-family: 'Lobster', cursive, sans-serif;
 }
 
-li {
-    list-style: none;
+ul {
+    list-style-type: none;
+    list-style-image: url(../images/knopka.png);
 }
 
 .linksInMenu {
@@ -15,27 +16,76 @@ li {
     font-size: 17px;
     text-decoration: none;
 }
-.linksInProducts{
+
+.linksInProducts {
     color: #ABF000;
     font-family: 'Lobster', cursive, sans-serif;
     font-size: 16px;
     text-decoration: none;
 }
-.linksInProductDescription{
-    font-size: 15px;
-    text-decoration: none;
-}
-.linksInProductMenu{
+
+.linksInProductMenu {
     color: #ABF000;
     font-size: 16px;
     text-decoration: none;
 }
-h4{
+
+.shortProdDescr {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    text-decoration: none;
+}
+.longProdDescr {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+h4 {
     color: black;
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea;
 }
+
+.bordAllProdCat {
+    border-style: solid;
+    border-width: 1px;
+    border-color: indianred;
+    width: 175px;
+}
+
+.bordProd {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e0dcd9;
+    width: 230px;
+    height: 300px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    color: #53E000;
+}
+
+textarea {
+    width: 200px;
+    height: 40px;
+}
+.imgIcons {
+    width: 30px;
+}
+#mainBanner {
+    width: 600px;
+}
+
+
 
 
 
