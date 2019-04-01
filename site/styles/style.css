@@ -84,6 +84,12 @@ textarea {
 #mainBanner {
     width: 600px;
 }
+a:hover:not(.shortProdDescr){
+    color: #eff045;
+}
+a:hover{
+    color: #8b0c69;
+}
 
 
 
