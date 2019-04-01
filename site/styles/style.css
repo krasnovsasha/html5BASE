@@ -71,13 +71,18 @@ h4 {
 input {
     width: 200px;
     height: 20px;
-    color: #53E000;
+    text-transform: capitalize;
+}
+.inputNewColor[type="Email"]:focus {
+    color: #8b0c69;
+    background-color: rgba(112, 112, 112, 0.11);
 }
 
 textarea {
     width: 200px;
     height: 40px;
 }
+
 .imgIcons {
     width: 30px;
 }
@@ -93,8 +98,20 @@ a:hover:not(.shortProdDescr){
 a:hover{
     color: #8b0c69;
 }
-header{
-    height: 130px;
+.header {
+    height: 100px;
+    background: url("../images/logo_header.png") no-repeat left;
+    background-size: 100px;
+    padding-left: 110px;
+    padding-top: 10px;
+    border-bottom: #707070 2px solid;
+}
+.footer {
+    height: 100px;
+    background: url("../images/logo_footer.png");
+    background-size: 500px;
+    border-top: #707070 2px solid;
+    margin-top: 25px;
 }
 
 
