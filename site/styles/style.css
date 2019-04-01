@@ -78,6 +78,7 @@ input {
     width: 230px;
     height: 300px;
 }
+
 .bordProd:hover {
     border-color: transparent;
 }
