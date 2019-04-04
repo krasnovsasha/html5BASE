@@ -5,9 +5,27 @@ body {
     font-family: 'Lobster', cursive, sans-serif;
 }
 
+h4 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
 ul {
     list-style-type: none;
-    list-style-image: url(../images/knopka.png);
+    list-style-image: url(../images/pin.png);
+}
+
+textarea {
+    width: 200px;
+    height: 40px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    text-transform: capitalize;
 }
 
 .linksInMenu {
@@ -37,52 +55,75 @@ ul {
     line-height: 16px;
     text-decoration: none;
 }
+
 .longProdDescr {
     color: #484343;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-
-}
-
-h4 {
-    color: black;
-    font-size: 18px;
-    font-weight: 400;
-    background-color: #eaeaea;
 }
 
 .bordAllProdCat {
-    border-style: solid;
-    border-width: 1px;
-    border-color: indianred;
+    border: 1px solid indianred;
     width: 175px;
 }
 
 .bordProd {
-    border-style: solid;
-    border-width: 1px;
-    border-color: #e0dcd9;
+    border: 1px solid #e0dcd9;
     width: 230px;
     height: 300px;
 }
 
-input {
-    width: 200px;
-    height: 20px;
-    color: #53E000;
+.bordProd:hover {
+    border-color: transparent;
 }
 
-textarea {
-    width: 200px;
-    height: 40px;
+.inputNewColor[type="Email"]:focus {
+    color: #8b0c69;
+    background-color: rgba(112, 112, 112, 0.11);
 }
+
 .imgIcons {
     width: 30px;
 }
+
 #mainBanner {
     width: 600px;
+}
+
+#logoBanner {
+    height: 80px;
+}
+
+a:hover:not(.shortProdDescr){
+    color: #eff045;
+}
+
+a:hover {
+    color: #8b0c69;
+}
+
+.header {
+    height: 100px;
+    background: url("../images/logo_header.png") no-repeat left;
+    background-size: 100px;
+    padding-left: 110px;
+    padding-top: 10px;
+    border-bottom: #707070 2px solid;
+}
+
+.footer {
+    height: 100px;
+    background: url("../images/logo_footer.png");
+    background-size: 500px;
+    border-top: #707070 2px solid;
+    margin-top: 25px;
+}
+
+table,td {
+    border: black 1px solid;
+    border-collapse: collapse;
 }
 
 
