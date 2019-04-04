@@ -14,7 +14,7 @@ h4 {
 
 ul {
     list-style-type: none;
-    list-style-image: url(../images/knopka.png);
+    list-style-image: url(../images/pin.png);
 }
 
 textarea {
@@ -65,16 +65,12 @@ input {
 }
 
 .bordAllProdCat {
-    border-style: solid;
-    border-width: 1px;
-    border-color: indianred;
+    border: 1px solid indianred;
     width: 175px;
 }
 
 .bordProd {
-    border-style: solid;
-    border-width: 1px;
-    border-color: #e0dcd9;
+    border: 1px solid #e0dcd9;
     width: 230px;
     height: 300px;
 }
