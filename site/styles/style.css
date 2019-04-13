@@ -5,13 +5,6 @@ body {
     font-family: 'Lobster', cursive, sans-serif;
 }
 
-h4 {
-    color: black;
-    font-size: 18px;
-    font-weight: 400;
-    background-color: #eaeaea;
-}
-
 ul {
     list-style-type: none;
     list-style-image: url(../images/pin.png);
@@ -28,11 +21,31 @@ input {
     text-transform: capitalize;
 }
 
+#logoBanner {
+    position: absolute;
+    width: 100px;
+    margin: 10px 0 20px 30px;
+}
+#mainBanner {
+    width: 960px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
+
 .linksInMenu {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 65px;
+    padding: 0 5px;
     color: #53E000;
     font-family: 'Lobster', cursive, sans-serif;
     font-size: 17px;
     text-decoration: none;
+    float: right;
 }
 
 .linksInProducts {
@@ -48,6 +61,14 @@ input {
     text-decoration: none;
 }
 
+.descrName {
+     color: black;
+     font-size: 18px;
+     font-weight: 400;
+     background-color: #eaeaea;
+     margin-top: 0;
+ }
+
 .shortProdDescr {
     color: #707070;
     font-size: 14px;
@@ -58,21 +79,16 @@ input {
 
 .longProdDescr {
     color: #484343;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
 }
 
 .bordAllProdCat {
-    border: 1px solid indianred;
     width: 175px;
+    height: 200px;
 }
 
 .bordProd {
     border: 1px solid #e0dcd9;
-    width: 230px;
-    height: 300px;
+    width: 100%;
 }
 
 .bordProd:hover {
@@ -88,14 +104,6 @@ input {
     width: 30px;
 }
 
-#mainBanner {
-    width: 600px;
-}
-
-#logoBanner {
-    height: 80px;
-}
-
 a:hover:not(.shortProdDescr){
     color: #eff045;
 }
@@ -103,13 +111,15 @@ a:hover:not(.shortProdDescr){
 a:hover {
     color: #8b0c69;
 }
+.shopName {
+    position: absolute;
+    margin: 0 20px 20px 190px;
+    font-size: 18px;
+}
 
 .header {
+    position: relative;
     height: 100px;
-    background: url("../images/logo_header.png") no-repeat left;
-    background-size: 100px;
-    padding-left: 110px;
-    padding-top: 10px;
     border-bottom: #707070 2px solid;
 }
 
@@ -117,8 +127,62 @@ a:hover {
     height: 100px;
     background: url("../images/logo_footer.png");
     background-size: 500px;
+    padding-top: 10px;
+    padding-right: 10px;
     border-top: #707070 2px solid;
     margin-top: 25px;
+    text-align: right;
+}
+.prodImgAndDescrBlock {
+    width: 100%;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.prodImgBlock {
+    width: 20%;
+    float: left;
+}
+
+.prodCatImgBlock {
+    width: 20%;
+    float: left;
+    margin-right: 35px;
+    margin-bottom: 35px;
+
+}
+
+.prodDescrBlock {
+    width: 78%;
+    float: right;
+}
+
+.prodCatDescrBlock {
+
+}
+
+.buyProductButton {
+    display: block;
+    color: rgb(35, 1, 27);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    float: right;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2ff52+0,91e842+100;Neon */
+    background: #d2ff52; /* Old browsers */
+    background: -moz-linear-gradient(top, #d2ff52 0%, #91e842 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #d2ff52 0%,#91e842 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #d2ff52 0%,#91e842 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 ); /* IE6-9 */
+}
+.buyProductButton:hover {
+    padding: 13px 17px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9dd53a+0,a1d54f+50,80c217+51,7cbc0a+100;Green+Gloss+%231 */
+    background: #9dd53a; /* Old browsers */
+    background: -moz-linear-gradient(top, #9dd53a 0%, #a1d54f 50%, #80c217 51%, #7cbc0a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* IE6-9 */
 }
 
 table,td {
